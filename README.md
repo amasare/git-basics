@@ -16,7 +16,7 @@ Need help at anytime?
 ```
 #### Import A New Project
 ```ShellSession
-  git clone
+  git clone git@github.com:amasare/git-basics.git
 ```
 
 #### Make Changes
