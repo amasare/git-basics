@@ -16,32 +16,28 @@ Need help at anytime?
 ```
 #### Import A New Project
 ```ShellSession
-  git clone git@github.com:amasare/git-basics.git
+ git clone git@github.com:amasare/git-basics.git
 ```
-
 #### Make Changes
 ```ShellSession
-  git add .
-  git commit -m "Short message describing what you did. "
+ git status
+ git add .
+ git commit -m "Short message describing what you did. "
 ```
-  
 #### Share With Others
 ```ShellSession
-  git push
+ git push
 ```
-
 #### Update Your Repository
 ```ShellSession
-  git pull --rebase
+ git pull --rebase
 ```
-  
 #### Create Branch
 ```ShellSession
-  git branch "branch name"
+ git branch "branch name"
 ```  
 #### Merge Branch
 ```ShellSession
   git merge master
 ```  
-  
-
+ 
