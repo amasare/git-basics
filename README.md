@@ -19,10 +19,24 @@ Need help at anytime?
  git clone git@github.com:amasare/git-basics.git
 ```
 #### Make Changes
+Modify existing file
+Create a new file
+Stage files
+Modify existing file again
+Notice staged and unstaged state when you run a git status.
 ```ShellSession
  git status
+ git status -s (--short)
  git add .
  git commit -m "Short message describing what you did. "
+```
+Remove newly created file from git
+```console
+git rm
+```
+#### Viewing changes
+```ShellSession
+ git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
 ```
 #### Share With Others
 ```ShellSession
