@@ -40,13 +40,12 @@ git rm playArea1.txt
 ```
 #### Undoing
 *Anything that you lose that you have not commited can never be gotten back*
-If you forgot to add "i_forgot_you.txt" to your commit.
+######If you forgot to add "i_forgot_you.txt" to your commit.
 ```console
 git add .
 git commit --amend
 ```
-
-If you want to unstage (remove from snapshot ready for commit) a file
+######If you want to unstage (remove from snapshot ready for commit) a file
 Create "i_am_going_to_unstage_you_in_a_sec.txt"
 ```console
 git add . 
