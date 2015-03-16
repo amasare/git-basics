@@ -34,8 +34,11 @@ Remove newly created file "playArea1.txt" from git (staging and working director
 ```console
 git rm playArea1.txt
 ```
-
-Undoing
+#### Viewing changes
+```ShellSession
+ git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
+```
+#### Undoing
 *Anything that you lose that you have not commited can never be gotten back*
 If you forgot to add "i_forgot_you.txt" to your commit.
 ```console
@@ -55,12 +58,6 @@ git add .
 git checkout -- i_am_going_to_unstage_you_in_a_sec.txt
 rm i_am_going_to_unstage_you_in_a_sec.txt
 git checkout -- playArea2.txt
-```
-
-
-#### Viewing changes
-```ShellSession
- git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
 ```
 #### Share With Others
 ```ShellSession
