@@ -2,6 +2,14 @@
 Take you through an everyday git workflow
 
 ### First Time Setup
+
+Need help at anytime?
+```ShellSession
+ man git
+ git help
+ man git-<verb> #eg man git-bisect
+```
+
 #### Set your user name and email address. Necessary for commits
 ```ShellSession
  git config --global user.name "Rusty Taco"
@@ -26,6 +34,7 @@ Take you through an everyday git workflow
 ### Update Your Repository
 ```ShellSession
   git pull --rebase
+```
   
 ### Create Branch
 ```ShellSession
