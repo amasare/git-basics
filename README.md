@@ -4,8 +4,8 @@ Take you through an everyday git workflow
 ### First Time Setup
 #### Set your user name and email address. Necessary for commits
 ```ShellSession
- git config --global user.name "John Doe"
- git config --global user.email johndoe@example.com
+ git config --global user.name "Rusty Taco"
+ git config --global user.email rustytaco@yolo.com
 ```
 ### Import A New Project
 ```ShellSession
@@ -15,8 +15,6 @@ Take you through an everyday git workflow
 ### Make Changes
 ```ShellSession
   git add .
-```
-```ShellSession
   git commit -m "Short message describing what you did. "
 ```
   
