@@ -93,6 +93,7 @@ Shortcuts for specified commands
 ```console
 git config --global alias.co checkout #Next time run 'git co' instead of 'git checkout'
 git config --global alias.unstage 'reset HEAD --'
+git config --global alias.last 'log -1 HEAD'
 ```
 Modify playArea2.txt, stage it, then unstage with your new alias
 
