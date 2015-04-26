@@ -35,6 +35,18 @@ Remove newly created file "playArea1.txt" from git (staging and working director
 ```console
 git rm playArea1.txt
 ```
+
+######Commit Messages Guide
+<ul>
+<li>Separate subject from body with a blank line</li>
+<li>Limit the subject line to 50 characters</li>
+<li>Capitalize the subject line</li>
+<li>Do not end the subject line with a period</li>
+<li>Use the imperative mood in the subject line</li>
+<li>Wrap the body at 72 characters</li>
+<li>Use the body to explain what and why vs. how</li>  
+
+
 #### View changes
 ```ShellSession
  git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
@@ -78,7 +90,12 @@ Tag information doesn't usually go with a push. To push tag:
 ```console
 git push origin 'release1'
 ```
-
+####Aliases
+Shortcuts for specified commands
+```console
+git config --global alias.co checkout #Next time run 'git co' instead of 'git checkout'
+git config --global alias.unstage 'reset HEAD --'
+```
 #### Create Branch
 ```ShellSession
  git branch "branch name"
