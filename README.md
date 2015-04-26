@@ -47,17 +47,17 @@ git add .
 git commit --amend
 ```
 ######If you want to unstage (remove from snapshot ready for commit) a file
-Create "i_am_going_to_unstage_you_in_a_sec.txt"
+Modify and stage "donkey.txt"
 ```console
 git add . 
-git reset HEAD i_am_going_to_unstage_you_in_a_sec.txt
 ```
-File is now in working directory and modified state only. To unmodify:
+Remove file from index
 ```console
-git add . 
-git checkout -- i_am_going_to_unstage_you_in_a_sec.txt
-rm i_am_going_to_unstage_you_in_a_sec.txt
-git checkout -- playArea2.txt
+git reset HEAD donkey.txt
+```
+File is in working directory and modified state only. To unmodify (revert it to it's last committed state) <strong>DANGEROUS</strong>:
+```console
+git checkout -- donkey.txt
 ```
 #### Share With Others
 ```ShellSession
