@@ -2,7 +2,7 @@
 Take you through an everyday git workflow
 
 Need help at anytime?
-```ShellSession
+```console
  man git
  git help
  man git-<verb> #eg man git-bisect
@@ -10,12 +10,12 @@ Need help at anytime?
 
 #### First Time Setup
 ##### Set your user name and email address. Necessary for commits
-```ShellSession
+```console
  git config --global user.name "Rusty Taco"
  git config --global user.email rustytaco@yolo.com
 ```
 #### Import A New Project
-```ShellSession
+```console
  git clone git@github.com:amasare/git-basics.git
 ```
 #### Make Changes
@@ -24,7 +24,7 @@ Create 3 new files "playArea1.txt", "playArea2.txt", "playArea3.txt"
 Stage files  
 Modify existing file "donkey.txt" again  
 Notice staged and unstaged state when you run a git status.
-```ShellSession
+```console
  git status
  git status -s (--short)
  git diff (--staged)
@@ -46,7 +46,7 @@ git rm playArea1.txt
 <li>Use the body to explain what and why vs. how</li>  
 </ul>
 #### View changes
-```ShellSession
+```console
  git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
 ```
 #### Undo changes
