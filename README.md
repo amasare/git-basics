@@ -27,6 +27,7 @@ Notice staged and unstaged state when you run a git status.
 ```ShellSession
  git status
  git status -s (--short)
+ git diff (--staged)
  git add .
  git commit -m "Short message describing what you did. "
 ```
