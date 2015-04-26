@@ -19,10 +19,10 @@ Need help at anytime?
  git clone git@github.com:amasare/git-basics.git
 ```
 #### Make Changes
-Modify existing file
-Create 3 new files "playArea1.txt", "playArea2.txt", "playArea3.txt"
-Stage files
-Modify existing file "donkeyRyhmes.txt" again
+Modify existing file "donkey.txt"  
+Create 3 new files "playArea1.txt", "playArea2.txt", "playArea3.txt"  
+Stage files  
+Modify existing file "donkey.txt" again  
 Notice staged and unstaged state when you run a git status.
 ```ShellSession
  git status
