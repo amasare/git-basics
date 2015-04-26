@@ -35,7 +35,6 @@ Remove newly created file "playArea1.txt" from git (staging and working director
 ```console
 git rm playArea1.txt
 ```
-
 ######Commit Messages Guide
 <ul>
 <li>Separate subject from body with a blank line</li>
@@ -45,8 +44,7 @@ git rm playArea1.txt
 <li>Use the imperative mood in the subject line</li>
 <li>Wrap the body at 72 characters</li>
 <li>Use the body to explain what and why vs. how</li>  
-
-
+</ul>
 #### View changes
 ```ShellSession
  git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
