@@ -35,11 +35,11 @@ Remove newly created file "playArea1.txt" from git (staging and working director
 ```console
 git rm playArea1.txt
 ```
-#### Viewing changes
+#### View changes
 ```ShellSession
  git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
 ```
-#### Undoing
+#### Undo changes
 *Anything that you lose that you have not commited can never be gotten back*
 ######If you forgot to add "i_forgot_you.txt" to your commit.
 ```console
@@ -67,6 +67,18 @@ git checkout -- donkey.txt
 ```ShellSession
  git pull --rebase
 ```
+#### Tag
+Tag specific version in history as important
+```console
+git tag 'release1'
+git status
+git show 'release1'
+```
+Tag information doesn't usually go with a push. To push tag:
+```console
+git push origin 'release1'
+```
+
 #### Create Branch
 ```ShellSession
  git branch "branch name"
