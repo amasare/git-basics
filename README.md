@@ -96,6 +96,7 @@ git config --global alias.unstage 'reset HEAD --'
 ```
 Modify playArea2.txt, stage it, then unstage with your new alias
 
+###Branches
 #### Create Branch
 ```ShellSession
  git branch "branch name"
