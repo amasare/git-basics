@@ -32,7 +32,7 @@ Notice staged and unstaged state when you run a git status.
  git add .
  git commit -m "Short message describing what you did. "
 ```
-Remove newly created file "playArea1.txt" from git (staging and working directory)
+Remove newly created file "playArea1.txt" from git (staging and working directory -becomes untracked)
 ```console
 git rm playArea1.txt
 ```
@@ -76,7 +76,7 @@ git checkout -- donkey.txt
 ```
 #### Update Your Repository
 ```ShellSession
- git pull --rebase
+git pull --rebase
 ```
 #### Tag
 Tag specific version in history as important
@@ -100,16 +100,29 @@ Modify playArea2.txt, stage it, then unstage with your new alias
 
 ###Branches
 #### Create Branch
-```ShellSession
- git branch "branch name"
+```console
+git branch 'awesome_branch'
+git log --decorate #observe which commits all the branches are pointing to
 ```  
+HEAD - branch git is on at the moment
+#### Switch To New Branch
+```console
+git checkout 'awesome_branch'
+```  
+Create commit on new branch and check commits pointed to again    
+Switch to master, check commits pointed to. Changes are isolated!
+```console
+git log --decorate --all
+``` 
+
 #### Merge Branch
+Replay changes in awesome_branch since it diverged from master, record result in a new commit on top of master
 ```ShellSession
-  git merge master
+git merge master
 ```  
  
 ### Random Favourites
 ```console
-  git blame
-  git bisect
+git blame
+git bisect
 ```  
