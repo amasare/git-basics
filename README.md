@@ -125,4 +125,6 @@ git merge master
 ```console
 git blame
 git bisect
+git log -Sfind_log_this_word_was_introduced
+git stash
 ```  
