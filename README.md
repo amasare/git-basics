@@ -1,7 +1,8 @@
 # git-basics
 Take you through an everyday git workflow
 
-Need help at anytime?
+Need help at anytime?  
+http://git-scm.com/book/
 ```console
  man git
  git help
