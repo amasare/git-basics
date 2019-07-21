@@ -51,13 +51,13 @@ git rm playArea1.txt
  git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
 ```
 #### Undo changes
-*Anything that you lose that you have not commited can never be gotten back*
-######If you forgot to add "i_forgot_you.txt" to your commit.
+* Anything that you lose that you have not commited can never be gotten back *
+###### If you forgot to add "i_forgot_you.txt" to your commit.
 ```console
 git add .
 git commit --amend
 ```
-######If you want to unstage (remove from snapshot ready for commit) a file
+###### If you want to unstage (remove from snapshot ready for commit) a file
 Modify and stage "donkey.txt"
 ```console
 git add . 
@@ -89,7 +89,7 @@ Tag information doesn't usually go with a push. To push tag:
 ```console
 git push origin 'release1'
 ```
-####Aliases
+#### Aliases
 Shortcuts for specified commands
 ```console
 git config --global alias.co checkout #Next time run 'git co' instead of 'git checkout'
@@ -98,7 +98,7 @@ git config --global alias.last 'log -1 HEAD'
 ```
 Modify playArea2.txt, stage it, then unstage with your new alias
 
-###Branches
+### Branches
 #### Create Branch
 ```console
 git branch 'awesome_branch'
