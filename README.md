@@ -36,16 +36,16 @@ Remove newly created file "playArea1.txt" from git (staging and working director
 ```console
 git rm playArea1.txt
 ```
-######Commit Messages Guide
-<ul>
-<li>Separate subject from body with a blank line</li>
-<li>Limit the subject line to 50 characters</li>
-<li>Capitalize the subject line</li>
-<li>Do not end the subject line with a period</li>
-<li>Use the imperative mood in the subject line</li>
-<li>Wrap the body at 72 characters</li>
-<li>Use the body to explain what and why vs. how</li>  
-</ul>
+###### Commit Messages Guide
+
+1 Separate subject from body with a blank line</li>
+1 Limit the subject line to 50 characters</li>
+1 Capitalize the subject line</li>
+1 Do not end the subject line with a period</li>
+1 Use the imperative mood in the subject line</li>
+1 Wrap the body at 72 characters</li>
+1 Use the body to explain what and why vs. how</li>  
+
 #### View changes
 ```console
  git log [-p|--stat|--graph|--oneline][--pretty=short|full|fuller][--since="2 weeks ago"]
